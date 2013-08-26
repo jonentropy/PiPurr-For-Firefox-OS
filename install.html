@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <p>PiPurr installation page</p>
+    <script>
+      // This URL must be a full url.
+      var manifestUrl = 'http://192.168.1.64:8088/package.manifest';
+      var req = navigator.mozApps.installPackage(manifestUrl);
+      req.onsuccess = function() {
+        alert("Now you can see what they are up to all day long!");
+      };
+      req.onerror = function() {
+        alert(this.error.name);
+      };
+    </script>
+  </body>
+</html>

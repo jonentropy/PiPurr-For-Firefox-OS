@@ -1,0 +1,19 @@
+{
+  "name": "PiPurr",
+  "package_path": "http://192.168.1.64:8088/package.zip",
+  "description": "PiPurr client for Firefox OS",
+  "launch_path": "/index.html",
+  "version": "1.0",
+  "icons": {
+    "128": "/img/icon128.png",
+    "60": "/img/icon60.png"
+  },
+  "developer": {
+    "name": "Tristan Linnell",
+    "url": "http://canthack.org"
+  },
+  "default_locale": "en"
+}
+
+
+
